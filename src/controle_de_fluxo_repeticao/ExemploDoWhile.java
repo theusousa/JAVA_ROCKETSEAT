@@ -12,15 +12,19 @@ public class ExemploDoWhile {
             System.out.println("Telefone tocando");
 
         }while (tocando());
+        if (numerotentativas<=5)
             System.out.println("AlÔ !!!");
+        else
+            System.out.println("Não atendeu");
 
     }
 
     private static boolean tocando(){
-        boolean atendeu = new Random().nextInt(3)==1;
-        System.out.println("Atendeu" + atendeu);
-        //negando o ato de continuar tocando
-        return !atendeu;
-
+        numerotentativas++;
+        boolean atendeu = new Random().nextInt(5)==1;
+        if (numerotentativas == 5)
+              return false;
+        else
+            return !atendeu;
     }
 }
