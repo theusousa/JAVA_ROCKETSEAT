@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bdae2f2-3411-49e9-9a69-f9e31e85da24" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AprendendoJava.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="0bdae2f2-3411-49e9-9a69-f9e31e85da24" name="Changes" comment="iniciando POO">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +22,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -37,25 +34,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ExemploBreakContinue.executor": "Run",
-    "Application.ExemploWhile.executor": "Run",
-    "Application.PlanoOperadora.executor": "Run",
-    "Application.ResultadoEscola.executor": "Run",
-    "Application.SistemaMedida.executor": "Run",
-    "Application.Ternario.executor": "Run",
-    "Application.conta.executor": "Run",
-    "Application.operadores.executor": "Run",
-    "Application.outroWhile.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AboutMe.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExemploBreakContinue.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExemploDoWhile.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExemploWhile.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PlanoOperadora.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ResultadoEscola.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SistemaMedida.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ternario.executor&quot;: &quot;Run&quot;,
+    &quot;Application.conta.executor&quot;: &quot;Run&quot;,
+    &quot;Application.operadores.executor&quot;: &quot;Run&quot;,
+    &quot;Application.outroWhile.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.teste.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.outroWhile">
-    <configuration name="ExemploBreakContinue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="controle_de_fluxo_repeticao.ExemploBreakContinue" />
+}</component>
+  <component name="RunManager" selected="Application.teste">
+    <configuration name="AboutMe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controle_fluxo_excecao.AboutMe" />
+      <module name="AprendendoJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controle_fluxo_excecao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExemploDoWhile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controle_de_fluxo_repeticao.ExemploDoWhile" />
       <module name="AprendendoJava" />
       <extension name="coverage">
         <pattern>
@@ -80,26 +94,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlanoOperadora" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="controle_fluxo.condicional.PlanoOperadora" />
-      <module name="AprendendoJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="controle_fluxo.condicional.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="conta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="conta" />
-      <module name="AprendendoJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="outroWhile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="controle_de_fluxo_repeticao.outroWhile" />
       <module name="AprendendoJava" />
@@ -113,13 +107,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="teste" />
+      <module name="AprendendoJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.teste" />
+        <item itemvalue="Application.AboutMe" />
+        <item itemvalue="Application.ExemploDoWhile" />
         <item itemvalue="Application.outroWhile" />
         <item itemvalue="Application.ExemploWhile" />
-        <item itemvalue="Application.conta" />
-        <item itemvalue="Application.ExemploBreakContinue" />
-        <item itemvalue="Application.PlanoOperadora" />
       </list>
     </recent_temporary>
   </component>
@@ -132,6 +133,39 @@
       <option name="presentableId" value="Default" />
       <updated>1743971117116</updated>
     </task>
+    <task id="LOCAL-00001" summary="estudando Java">
+      <option name="closed" value="true" />
+      <created>1744658511233</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1744658511233</updated>
+    </task>
+    <task id="LOCAL-00002" summary="iniciando POO">
+      <option name="closed" value="true" />
+      <created>1744761374407</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1744761374407</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="estudando Java" />
+    <MESSAGE value="iniciando POO" />
+    <option name="LAST_COMMIT_MESSAGE" value="iniciando POO" />
   </component>
 </project>
