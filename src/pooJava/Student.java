@@ -4,16 +4,15 @@ package pooJava;
 public class Student {
    String name;
    int age;
-     Color color;
-   Sex sex;
+    // Color color;
+  // Sex sex;
 
-   void eating(Lunch lunch){
+   //void eating(Lunch lunch){
    //nosso codigo aqui
    }
-   void drinking(Juice juice){
+  // void drinking(Juice juice){
        //nosso codigo aqui
-   }
-   void running(){
+
+//void running(){
        //nosso codigo aqui
-   }
-}
+
